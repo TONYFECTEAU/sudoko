@@ -1,0 +1,17 @@
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.deps.json
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.runtimeconfig.json
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.runtimeconfig.dev.json
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.dll
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.pdb
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\SudokuBruteForceMethod.dll
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\bin\Debug\netcoreapp2.0\SudokuBruteForceMethod.pdb
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\obj\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.csprojAssemblyReference.cache
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\obj\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.csproj.CoreCompileInputs.cache
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\obj\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.AssemblyInfoInputs.cache
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\obj\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.AssemblyInfo.cs
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\obj\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.csproj.CopyComplete
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\obj\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.dll
+D:\Sync\SudokuBruteForceMethod\PuzzleBruteForceMethodTests\obj\Debug\netcoreapp2.0\SudokuBruteForceMethod.Tests.pdb
