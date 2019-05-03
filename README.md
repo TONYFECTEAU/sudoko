@@ -1,0 +1,2 @@
+# sudoko
+Sudoku puzzle algorithim
