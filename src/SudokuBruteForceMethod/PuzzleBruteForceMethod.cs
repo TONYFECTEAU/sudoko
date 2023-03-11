@@ -77,28 +77,8 @@ namespace SudokuBruteForceMethod
                     return puzzle;
                 }
 
-                // If any possibles are just one, feed it in!
                 var copyPuzzle = new Puzzle(puzzle);
-                var oneValues = possibleValues.Where(v => v.Values.Count() == 1);
-                if (oneValues.Count() > 0)
-                {
-                    foreach (var onePossible in oneValues)
-                    {
-                        AddAttempt(onePossible.X, onePossible.Y);
-                        copyPuzzle[onePossible.X, onePossible.Y] = onePossible.Values[0];
-                        LogWithIndent(LogIndent, $"set cell[{onePossible.X},{onePossible.Y}] = {onePossible.Values[0]}, as only one possible value.");
-                    }
-
-                    // Check if solved
-                    if (possibleValues.Count() == oneValues.Count())
-                    {
-                        return SolvedPuzzle(copyPuzzle);
-                    }
-
-                    // Recalulcate possible values now that some are fed in
-                    possibleValues = copyPuzzle.GetPossibleValues();
-                }
-
+               
                 // Now for the fun recursion!
                 var tryCell = possibleValues[0];
                 foreach (var tryValue in tryCell.Values)

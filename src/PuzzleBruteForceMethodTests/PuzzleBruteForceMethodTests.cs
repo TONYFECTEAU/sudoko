@@ -14,7 +14,7 @@ namespace PuzzleBruteForceMethodTests
             var sourcePuzzle = new Puzzle(puzzleCode);
             var solvedPuzzle = bruteForce.SolveItNowPlease(sourcePuzzle);
             Assert.True(solvedPuzzle.PuzzleIsSolved);
-            Assert.Equal(84, bruteForce.AttemptsTotalSum);
+            Assert.Equal(81, bruteForce.AttemptsTotalSum);
         }
 
         [Fact]
@@ -36,7 +36,7 @@ namespace PuzzleBruteForceMethodTests
             var sourcePuzzle = new Puzzle(puzzleCode);
             var solvedPuzzle = bruteForce.SolveItNowPlease(sourcePuzzle);
             Assert.True(solvedPuzzle.PuzzleIsSolved);
-            Assert.Equal(120, bruteForce.AttemptsTotalSum);
+            Assert.Equal(297, bruteForce.AttemptsTotalSum);
         }
 
         [Fact]
@@ -60,6 +60,16 @@ namespace PuzzleBruteForceMethodTests
             Assert.False(solvedPuzzle.PuzzleIsSolved);
             Assert.Equal(0, bruteForce.AttemptsTotalSum);
         }
-    }
 
+        [Fact]
+        public void TestEvilPatrickPuzzle_unsolved()
+        {
+            string puzzleCode = "-8---34-----6----75----9---1-28-7-3-----------3-9-25-6---1----37----4-----53---1-";
+            var bruteForce = new PuzzleBruteForceMethod(new ConsoleLogger());
+            var sourcePuzzle = new Puzzle(puzzleCode);
+            var solvedPuzzle = bruteForce.SolveItNowPlease(sourcePuzzle);
+            Assert.True(solvedPuzzle.PuzzleIsSolved);
+            Assert.Equal(1050, bruteForce.AttemptsTotalSum);
+        }
+    }
 }

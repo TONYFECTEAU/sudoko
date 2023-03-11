@@ -218,9 +218,32 @@ namespace SudokuBruteForceMethod
                     yValues.Add(this[x, cnt]);
                 }
             }
+
+            // Also add quadrant values
+            var qValues = new List<byte>();
+            byte qxMod = (byte)(x / 3);
+            byte qxStart = (byte)(3 * qxMod);
+            byte qxEnd = (byte)(3 * qxMod + 2);
+
+            byte qyMod = (byte)(y / 3);
+            byte qyStart = (byte)(3 * qyMod);
+            byte qyEnd = (byte)(3 * qyMod + 2);
+
+            for (byte qx = qxStart; qx <= qxEnd; qx++)
+            {
+                for(byte qy = qyStart; qy <= qyEnd; qy++)
+                {
+                    if (this[qx, qy] > 0)
+                    {
+                        qValues.Add(this[qx, qy]);
+                    }
+                }
+            }
+
             xValues = GetMissingValues(xValues);
             yValues = GetMissingValues(yValues);
-            var possibleValues = xValues.Intersect(yValues).ToArray();
+            qValues = GetMissingValues(qValues);
+            var possibleValues = xValues.Intersect(yValues).Intersect(qValues).ToArray();
             return new PossibleCellValues(x, y, possibleValues);
         }
 
