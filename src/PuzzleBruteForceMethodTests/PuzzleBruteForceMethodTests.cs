@@ -62,7 +62,7 @@ namespace PuzzleBruteForceMethodTests
         }
 
         [Fact]
-        public void TestEvilPatrickPuzzle_unsolved()
+        public void TestEvilPatrickPuzzle_solve()
         {
             string puzzleCode = "-8---34-----6----75----9---1-28-7-3-----------3-9-25-6---1----37----4-----53---1-";
             var bruteForce = new PuzzleBruteForceMethod(new ConsoleLogger());
